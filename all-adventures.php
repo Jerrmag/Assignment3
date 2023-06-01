@@ -17,9 +17,9 @@ $summary = $_SESSION["summary"];
     try {
         error_log("Connecting to DB\n", 0);
         $dbhost = 'localhost';
-        $dbname = 'skillforhire_jere';
-        $dbuser = 'root';
-        $dbpass = '';
+        $dbname = 'id20534462_skillforhire_jere';
+        $dbuser = '	id20534462_jerrymag4';
+        $dbpass = 'W8S=U[wj\Uko@/g&';
         $pdo = new PDO("mysqli:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
 
        
